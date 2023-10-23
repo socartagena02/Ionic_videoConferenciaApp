@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Registro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <br>
+  <br>
+  <div class="container">
+    <ion-title class="titulo">Registrar usuario</ion-title>
+    <section class="register">
+      <form action="">
+        <br>
+        <ion-item class="name">
+          <ion-input label="name" label-placement="floating" fill="solid" placeholder="Ingrese nombre" type="text" required></ion-input>
+        </ion-item>
+        <ion-item class="lastname">
+          <ion-input label="lastname" label-placement="floating" fill="solid" placeholder="Ingrese apellido" type="text" required></ion-input>
+        </ion-item>
+        <br>
+        <ion-item class="nombreUsuario">
+          <ion-input label="nickname" label-placement="floating" fill="solid" placeholder="Ingrese nombre de usuario" type="text" required></ion-input>
+        </ion-item>
+        <ion-item class="correo">
+          <ion-input label="email" label-placement="floating" fill="solid" placeholder="Ingrese correo" type="email" required></ion-input>
+        </ion-item>
+        <br>
+        <ion-item class="contrasena">
+          <ion-input label="password" label-placement="floating" fill="solid" placeholder="Ingrese contraseña" type="password" required></ion-input>
+        </ion-item>
+        <ion-item class="repetir-contrasena">
+          <ion-input label="repeat-password" label-placement="floating" fill="solid" placeholder="confirme contraseña" type="password" required></ion-input>
+        </ion-item>
+        <br>
+        <ion-button class="confirmar" [routerLink]="['/inicio-sesion']">confirmar</ion-button>
+      </form>
+    </section>
+  </div>
+</ion-content>

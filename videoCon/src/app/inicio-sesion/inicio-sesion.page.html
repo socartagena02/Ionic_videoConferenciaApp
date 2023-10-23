@@ -1,0 +1,46 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Inicio de sesion</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="backgroundLogin">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container">
+    <div class="">
+      <ion-title class="titulo">Iniciar sesion</ion-title>
+      <p class="subtitulo">¡Inicia sesion para hablar con tus amigos!</p>
+    </div>
+    <section class="login">
+      <form action="login">
+        <ion-item class="nombreUsuario">
+            <ion-icon name="person-outline"></ion-icon>
+            <ion-input label="nickname" label-placement="floating" fill="solid" placeholder="Ingrese nombre de usuario" type="nickname" required></ion-input>
+        </ion-item>
+        <br>
+        <ion-item class="contrasena">
+          <ion-icon name="lock-closed-outline"></ion-icon>
+          <ion-input label="password" label-placement="floating" fill="solid" placeholder="Ingrese contraseña" type="password" required></ion-input>
+      </ion-item>
+      <br>
+        <div class="dontForgetUsuer">
+          <ion-checkbox labelPlacement="end">Recuerdame</ion-checkbox>
+          <a [routerLink]="['/reset-password']">¿Olvidaste contraseña?</a>
+        </div>
+        <br>
+        <div class="Inicio">
+          <a [routerLink]="['/registrar-nuevo-usuario']">¡Registrate ahora!</a>
+          <br>
+          <ion-button [routerLink]="['/inicio']">Conectar</ion-button>
+        </div>
+      </form>
+    </section>
+  </div>
+</ion-content>

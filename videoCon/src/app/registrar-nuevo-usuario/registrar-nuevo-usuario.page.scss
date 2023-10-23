@@ -1,0 +1,63 @@
+ion-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container{
+    background-color: #2b2b2b;
+    width: 400px;
+    height: 520px; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.titulo{
+    font-family: arial, sans-serif;
+    font-size: 20px;
+    width: 350px;
+    text-align: center;
+}
+
+ion-item.name{
+    width: 350px;
+    display: flex;
+    margin: auto; 
+}
+
+ion-item.lastname{
+    width: 350px;
+    display: flex;
+    margin: auto; 
+}
+
+ion-item.correo{
+    width: 350px;
+    display: flex;
+    margin: auto; 
+}
+
+ion-item.contrasena{
+    width: 350px;
+    display: flex;
+    margin: auto; 
+}
+
+ion-item.repetir-contrasena{
+    width: 350px;
+    display: flex;
+    margin: auto; 
+}
+
+ion-item.nombreUsuario{
+    width: 350px;
+    display: flex;
+    margin: auto; 
+}
+
+.confirmar{
+    text-align: center;
+    justify-content: center;
+}

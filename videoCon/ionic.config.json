@@ -1,0 +1,7 @@
+{
+  "name": "videoCon",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
